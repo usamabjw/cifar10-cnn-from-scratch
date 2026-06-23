@@ -67,6 +67,8 @@ python train.py
 python evaluate.py
 ```
 
+Evaluation prints test accuracy and saves a prediction preview image to `checkpoints/evaluation_predictions.png`.
+
 ## Results
 
 Expected Accuracy:
