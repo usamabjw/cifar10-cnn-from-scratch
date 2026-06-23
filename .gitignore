@@ -124,6 +124,13 @@ ipython_config.py
 #   in the .venv directory. It is recommended not to include this directory in version control.
 .pixi
 
+# CIFAR dataset archives and data downloads
+data/cifar-10-python.tar.gz
+data/cifar-100-python.tar.gz
+data/cifar-10-batches-py/
+checkpoints/
+*.tar.gz
+
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
@@ -216,3 +223,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+Miniconda3-latest-Linux-x86_64.shcheckpoints/
+data/cifar-10-batches-py/

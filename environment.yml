@@ -1,0 +1,17 @@
+name: cifar10-cnn-from-scratch
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - tqdm
+  - scikit-learn
+  - pip
+  - pytorch>=2.0
+  - torchvision>=0.15
+  - cpuonly
+  - pip:
+      - -r requirements.txt
